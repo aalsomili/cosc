@@ -1,0 +1,82 @@
+/* style sheet */
+#main-wrapper{
+	width:500px;
+	margin:0 auto;
+	background:white;
+	padding:15px;
+	border-radius:10px;
+	border:2px solid #f1c40f;
+}
+
+.icon{
+	width:150px;
+	text-align:center;
+}
+
+.myForm{
+	width:450px;
+	margin:0 auto;
+}
+
+.inputValues{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+
+#login-btn{
+	margin-top:10px;
+	background-color:#16a085;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#register-btn{
+	margin-bottom:20px;
+	margin-top:10px;
+	background-color:#2980b9;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#signup-btn{
+	margin-top:10px;
+	background-color:#16a085;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#back-btn{
+	margin-top:10px;
+	background-color:#d35400;
+	padding:5px;
+	color:white;
+	width:30%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+#logout-btn{
+	margin-top:10px;
+	background-color:#d35400;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
