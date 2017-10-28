@@ -5,12 +5,12 @@
 <title>Registration Page</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color:#34495e">
+<body style="background-color:#D3D3D3">
 
 	<div id="main-wrapper">
 		<center>
 			<h2>Registration Form</h2>
-			<img src="image/icon-1.png" class="icon"/>
+			<img src="/images/icon-1.png" class="icon"/>
 		</center>
 	
 	<form class="myForm" action="/login/register" method="post">

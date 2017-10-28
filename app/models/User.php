@@ -18,9 +18,10 @@ class User {
 		 
 		$db = db_connect();
         $statement = $db->prepare("select * from users
-                                WHERE username ='$username';
+                                WHERE username ='$username' AND password ='$password';
                 ");
         $statement->bindValue('$username', $this->username);
+		$statement->bindValue('$password', $this->password);
         $statement->execute();
         $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
 		
@@ -32,8 +33,8 @@ class User {
 	
 	public function register ($username, $password) {
 		$db = db_connect();
-        $statement = $db->prepare("INSERT INTO users (name)"
-                . " VALUES ('$username'); ");
+        $statement = $db->prepare("INSERT INTO users"
+                . " VALUES ('$username', '$password'); ");
 
         $statement->bindValue('$username', $username);
         $statement->execute();

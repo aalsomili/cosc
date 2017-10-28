@@ -11,7 +11,7 @@ class Home extends Controller {
 			$message = 'You suck';
 		}
 		
-        $this->view('home/index', ['message' => $message]);
+        $this->view('home/', ['message' => $message]);
     }
 
     public function login($name = '') {

@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>Home Page</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body style="background-color:#34495e">
 
@@ -14,7 +14,7 @@
 			<?php
 				echo $_SESSION['username'] 
 				?></h3>
-			<img src="image/icon-1.png" class="icon"/>
+			<img src="images/icon-1.png" class="icon"/>
 		</center>
 	
 	<form class="myForm" action="homepage.php" method="post">

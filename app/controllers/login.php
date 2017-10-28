@@ -16,7 +16,7 @@ class Login extends Controller {
         if ($user->auth == TRUE) {
             $_SESSION['auth'] = true;
         }
-        
+		
         header('Location: /home');
     }
 	
