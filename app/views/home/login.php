@@ -1,11 +1,11 @@
 <?php require_once '../app/views/templates/headerPublic.php' ?>
+
 <!DOCTYPE html>
 <html>
 <head>
 <title>Loging Page</title> 
-<link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color:#D3D3D3">
+<body style="background-color:#FFD3D3">
 
 	<div id="main-wrapper">
 		<center>
@@ -21,9 +21,9 @@
 		<input name="login" type="submit" id="login-btn" value="Login"/>
 		<a href="/login/register"><input type="button" id="register-btn" value="Register"/>
 	</form>
-	
 	</div>
 	
 </body>
 </html>
-    <?php require_once '../app/views/templates/footer.php' ?>
+
+    <?php require_once '../app/views/templates/footerPublic.php' ?>

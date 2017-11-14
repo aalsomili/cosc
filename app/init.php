@@ -14,4 +14,7 @@ require_once 'core/config.php';
 require_once 'core/utils.php';
 require_once 'database.php';
 
- 
+error_reporting(E_ALL & E_STRICT);
+ini_set('display_errors', '1');
+ini_set('log_errors', '0');
+ini_set('error_log', './');

@@ -3,9 +3,9 @@
 <html>
 <head>
 <title>Registration Page</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 </head>
-<body style="background-color:#D3D3D3">
+<body style="background-color:#FFD3D3">
 
 	<div id="main-wrapper">
 		<center>
@@ -27,4 +27,4 @@
 	</div>
 </body>
 </html>
-    <?php require_once '../app/views/templates/footer.php' ?>
+    <?php require_once '../app/views/templates/footerPublic.php' ?>

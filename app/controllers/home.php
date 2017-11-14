@@ -2,20 +2,16 @@
 
 class Home extends Controller {
 
-    public function index($name = '') {		
+    public function index($name = ' ') {		
         $user = $this->model('User');
 		
-		if (strtolower($_SESSION['name']) == 'mike') {
-			$message = 'You are awesome';
-		} else {
-			$message = 'You suck';
-		}
-		
-        $this->view('home/', ['message' => $message]);
+		$this->view('home/index', ['message' => 'Welcome to the website']);
     }
 
-    public function login($name = '') {
-        $this->view('home/login');
+    public function login($name = ' ') {
+		$logs = $this->model('Logs');
+		$counter = $logs->getLogin($_SERVER['REMOTE_ADD']);
+		$this->view('home/login', ['counter' => $counter);
     }
-
-}
+	
+} //end of Home class

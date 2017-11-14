@@ -38,7 +38,7 @@ if (isset($_SESSION['auth']) != 1) {
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/logout">Logout</a></li>
+                        <li><a href="/logout/logout">Logout</a></li>
                     </ul>
                 </div>
             </div>

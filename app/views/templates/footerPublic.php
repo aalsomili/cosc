@@ -3,7 +3,7 @@
         <div class="col-lg-12">
             <p>Copyright &copy; <?php echo date('Y'); ?> 
 			<?php if (isset($_SESSION['login_date'][1])) { ?>
-                | Last login: <?=$_SESSION['login_date'][1]['date_time']?>
+                | Login Attempts: <?=$_SESSION['counter']?>
             <?php } ?>
 			</p>
         </div>
